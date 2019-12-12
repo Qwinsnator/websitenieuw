@@ -36,11 +36,16 @@ body {
 }
 
 .pagina {
+    font-size: 20px;
     opacity: 0.5;
+    margin: auto;
 }
+
 .begin {
     height: 100px;
+    width: 700px;
     background-color: red;
+    text-align: center;
 }
 
 .schieten {
