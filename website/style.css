@@ -1,0 +1,59 @@
+header {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* navigatiebalk */
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color:black;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* teksten enzo */
+
+body {
+    background-image: url("/website/afbeeldingen/achtergrond.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.pagina {
+    opacity: 0.5;
+}
+.begin {
+    height: 100px;
+    background-color: red;
+}
+
+.schieten {
+    height: 400px;
+    background-color: orange;
+}
+
+.dribbelen {
+    height: 700px;
+    background-color: yellow;
+}
+
+.footer {
+    height: 1000px;
+    background-color: green;
+}
