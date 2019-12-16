@@ -1,3 +1,5 @@
+
+
 header {
     color: orange;
     text-align: center;
@@ -12,10 +14,12 @@ nav ul {
     padding: 0;
     background-color:black;
     overflow: hidden;
+    border: solid 5px rgb(255,165,0)
 }
 
 nav ul li {
     float: left;
+    width: 350px;
 }
 
 nav li a {
@@ -23,7 +27,8 @@ nav li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none;   
+    font-size: 20px;
 }
 
 /* teksten enzo */
@@ -42,8 +47,9 @@ body {
 }
 
 .begin {
-    height: 100px;
-    width: 700px;
+    width: 800px;
+    margin: auto;
+    /*height: 100px;*/
     background-color: red;
     text-align: center;
 }
