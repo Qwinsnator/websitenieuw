@@ -1,5 +1,3 @@
-
-
 header {
     color: orange;
     text-align: center;
@@ -33,9 +31,13 @@ nav li a {
 
 /* teksten enzo */
 
+@font-face {
+    font-family: rubik-italic;
+    src: url("font/Rubik-Italic.ttf");
+}
 body {
     background-image: url("/website/afbeeldingen/achtergrond.jpg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -43,7 +45,6 @@ body {
 .pagina {
     font-size: 20px;
     opacity: 0.5;
-    margin: auto;
 }
 
 .begin {
@@ -67,4 +68,15 @@ body {
 .footer {
     height: 1000px;
     background-color: green;
+    <p class="icons">
+    <a class="quinten-man" href="https://www.instagram.com/quinten_man_/"><i class="fab fa-instagram"></i></a>
+}
+
+
+a.quinten-man {
+    font-size: 200px;
+    text-decoration: none;
+    color: white;
+*{
+    font-family: rubik-italic;
 }
