@@ -5,19 +5,17 @@ header {
 }
 
 /* navigatiebalk */
-
 nav ul {
     list-style-type: none;
-    margin: auto;
-    padding: 0;
+    padding: 10;
     background-color:black;
     overflow: hidden;
-    border: solid 5px rgb(255,165,0)
+    border: solid 3px rgb(255,165,0)
 }
 
 nav ul li {
     float: left;
-    width: 350px;
+    width: 100px;
 }
 
 nav li a {
@@ -32,26 +30,30 @@ nav li a {
 /* teksten enzo */
 
 @font-face {
-    font-family: rubik-italic;
-    src: url("font/Rubik-Italic.ttf");
+    font-family: "Lato-Light";
+    src: url("font/Lato-Light.ttf");
 }
+
 body {
-    background-image: url("/website/afbeeldingen/achtergrond.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    width: 900px;
+    margin: auto;
+    font-family: "Lato-Light";
+    background-image: url("afbeeldingen/basketbal-zijkant.jpg");
+}
+
+.titels {
+    font-weight: bold;
+    text-align: center;
 }
 
 .pagina {
     font-size: 20px;
-    opacity: 0.5;
+    color: orange;
 }
 
 .begin {
     width: 800px;
     margin: auto;
-    /*height: 100px;*/
-    background-color: red;
     text-align: center;
 }
 
@@ -68,15 +70,10 @@ body {
 .footer {
     height: 1000px;
     background-color: green;
-    <p class="icons">
-    <a class="quinten-man" href="https://www.instagram.com/quinten_man_/"><i class="fab fa-instagram"></i></a>
 }
-
 
 a.quinten-man {
     font-size: 200px;
     text-decoration: none;
     color: white;
-*{
-    font-family: rubik-italic;
-}
+
