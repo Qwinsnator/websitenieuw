@@ -2,6 +2,7 @@ header {
     color: orange;
     text-align: center;
     font-size: 30px;
+    margin: auto;
 }
 
 /* navigatiebalk */
@@ -15,7 +16,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    width: 100px;
+    width: 120px;
 }
 
 nav li a {
@@ -27,8 +28,11 @@ nav li a {
     font-size: 20px;
 }
 
-/* teksten enzo */
+li a:hover {
+  background-color: orange;
+}
 
+/* font */
 @font-face {
     font-family: "Lato-Light";
     src: url("font/Lato-Light.ttf");
@@ -38,7 +42,7 @@ body {
     width: 900px;
     margin: auto;
     font-family: "Lato-Light";
-    background-image: url("afbeeldingen/basketbal-zijkant.jpg");
+    background-color: black;
 }
 
 .titels {
@@ -48,32 +52,41 @@ body {
 
 .pagina {
     font-size: 20px;
-    color: orange;
+    color: white;
+    font-weight: bold;
 }
 
 .begin {
-    width: 800px;
-    margin: auto;
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: auto;
     text-align: center;
 }
 
 .schieten {
-    height: 400px;
-    background-color: orange;
+    width: 500px;
+    margin: 90px;
+  
 }
 
 .dribbelen {
-    height: 700px;
-    background-color: yellow;
+    margin: 20px;
+    width: 500px;
 }
 
 .footer {
-    height: 1000px;
-    background-color: green;
+  
 }
 
-a.quinten-man {
-    font-size: 200px;
-    text-decoration: none;
-    color: white;
+hr { 
+    display: block;
+    background-color: orange;
+    margin: 15px;
+} 
 
+/* afbeeldingen */
+
+.shooting-form {
+    width: 500px;
+    height: 1000px;
+}
