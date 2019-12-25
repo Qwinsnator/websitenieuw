@@ -8,12 +8,30 @@
         <title>Basketbal</title>
     </head>
     
-    <body>
+            <script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+    <body onload="startTime()">
 
         <header>
             <h1 id="hoofdtitel">Basketbal</h1>
         </header>
-        
+
         <nav>
             <ul>
                 <li><a class="active" href="index.html">Home</a></li>
@@ -24,8 +42,10 @@
             </ul>
         </nav>
         
+        
+<div id="txt"></div>
 
-        <div class="basketbal-zijkant">   
+
 
         <div class="pagina">
 
@@ -35,7 +55,8 @@
                 Het doel is om zoveel mogelijk punten te scoren in een basket en daarbij proberen de tegenstander hierbij af te stoppen en de bal af te pakken.
             </div>
             <hr>
-             <h2 id="titels">Schieten</h2>
+            <h2 class="schieten-titel">Schieten</h2>
+            <div class="schieten-flex">
             <div class="schieten">
                 Bij basketbal heb je een speciale techniek om te schieten. 
                 Je gaat eerst vanuit je borst de bal vasthouden. 
@@ -45,19 +66,22 @@
                 Vervolgens spring je en strek je de rechterhand omhoog en naar de richting van de basket. 
                 Bij een linkshandige dribbelaar is het precies hetzelfde, maar is de linkerhand je schiethand en houd je de rechterhand aan de zijkant van de bal.
             </div>
+            <div class="shooting-form">
+             <img src="home/shooting-form.gif" alt="A shooting basketballplayer">
+            </div>
             
-            <img src="img_shooting-form.gif" class="shooting-form">
+            </div>
 
+            <hr>
+            <h2 class="dribbelen-titel">Dribbelen</h2>
             <div class="dribbelen">
                 Daarnaast is dribbelen ook belangrijk bij basketbal. 
                 bij dribbelen probeer je met je vingertoppen te dribbelen, dus niet met de hele hand. 
                 Zo kan je goed richten waar je wilt dribbelen. 
                 Ook dribbel je de bal niet hoger dan je middel van je lichaam.   
             </div>
-
-            <div class="footer">
-
-            </div>
+            
+            
         </div>
 
     </body>

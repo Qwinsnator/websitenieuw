@@ -38,6 +38,12 @@ li a:hover {
     src: url("font/Lato-Light.ttf");
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 900px;
     margin: auto;
@@ -45,37 +51,49 @@ body {
     background-color: black;
 }
 
-.titels {
+.schieten-titel {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    margin-top: 19px;
 }
 
 .pagina {
     font-size: 20px;
     color: white;
-    font-weight: bold;
 }
 
 .begin {
     width: 900px;
     margin-top: 50px;
-    margin-bottom: auto;
     text-align: center;
+    order: 1;
 }
 
 .schieten {
     width: 500px;
-    margin: 90px;
-  
+    margin-top: 5px;
+   
+    text-align: left;
 }
 
+.dribbelen-titel {
+   text-align: center;
+    font-weight: bold;
+}
 .dribbelen {
-    margin: 20px;
+    margin-top: 5px;
     width: 500px;
+    order: 3;
+    float: right; 
 }
 
-.footer {
-  
+.schieten-flex {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.shooting-form {
+  float: right;
 }
 
 hr { 
@@ -86,7 +104,3 @@ hr {
 
 /* afbeeldingen */
 
-.shooting-form {
-    width: 500px;
-    height: 1000px;
-}
