@@ -7,26 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <title>Basketbal</title>
     </head>
-    
-            <script>
-function startTime() {
-  var today = new Date();
-  var h = today.getHours();
-  var m = today.getMinutes();
-  var s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =
-  h + ":" + m + ":" + s;
-  var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
-</script>
-
-    <body onload="startTime()">
+    <body>
 
         <header>
             <h1 id="hoofdtitel">Basketbal</h1>
@@ -41,11 +22,6 @@ function checkTime(i) {
                 <li><a href="ervaring.html">Ervaring</a></li>
             </ul>
         </nav>
-        
-        
-<div id="txt"></div>
-
-
 
         <div class="pagina">
 
@@ -67,23 +43,42 @@ function checkTime(i) {
                 Bij een linkshandige dribbelaar is het precies hetzelfde, maar is de linkerhand je schiethand en houd je de rechterhand aan de zijkant van de bal.
             </div>
             <div class="shooting-form">
-             <img src="home/shooting-form.gif" alt="A shooting basketballplayer">
+                <img src="home/shooting-form.gif" alt="A shooting basketballplayer">
             </div>
-            
             </div>
 
             <hr>
             <h2 class="dribbelen-titel">Dribbelen</h2>
+            <div class="dribbelen-flex">
             <div class="dribbelen">
                 Daarnaast is dribbelen ook belangrijk bij basketbal. 
                 bij dribbelen probeer je met je vingertoppen te dribbelen, dus niet met de hele hand. 
                 Zo kan je goed richten waar je wilt dribbelen. 
                 Ook dribbel je de bal niet hoger dan je middel van je lichaam.   
             </div>
-            
-            
-        </div>
+            <div class="dribbelen-plaatje">
+                <img src="home/dribbelen-plaatje.jpg" width="100" alt="A dribbling basketballplayer">
+            </div>
+            </div>
 
+            <footer>
+            <div class="insta-button">
+            <a href="https://www.instagram.com/quinten_man_/">test</a>
+            </div>
+            <div class="facebook-button">
+            <a href="https://www.facebook.com/people/Quinten-Man/100011174444742">test</a>
+            </div>
+            <div class="twitter-button">
+            <a href="https://twitter.com/Quinten88262666">test</a>
+            </div>
+            </footer>
+
+
+
+
+
+
+        </div>
     </body>
 
 </html>

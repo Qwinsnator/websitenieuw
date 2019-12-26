@@ -2,7 +2,7 @@ header {
     color: orange;
     text-align: center;
     font-size: 30px;
-    margin: auto;
+    margin-bottom: 10px;
 }
 
 /* navigatiebalk */
@@ -51,12 +51,6 @@ body {
     background-color: black;
 }
 
-.schieten-titel {
-    font-weight: bold;
-    text-align: left;
-    margin-top: 19px;
-}
-
 .pagina {
     font-size: 20px;
     color: white;
@@ -69,38 +63,81 @@ body {
     order: 1;
 }
 
+/* schieten-alinea */
+.schieten-titel {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 19px;
+}
+
 .schieten {
     width: 500px;
     margin-top: 5px;
-   
     text-align: left;
-}
-
-.dribbelen-titel {
-   text-align: center;
-    font-weight: bold;
-}
-.dribbelen {
-    margin-top: 5px;
-    width: 500px;
-    order: 3;
-    float: right; 
 }
 
 .schieten-flex {
    display: flex;
    flex-wrap: wrap;
+   order: 2;
 }
 
-.shooting-form {
-  float: right;
+
+/* dribelen-alinea */
+.dribbelen-titel {
+   text-align: left;
+    font-weight: bold;
 }
 
+.dribbelen {
+    margin-top: 5px;
+    width: 500px;
+    text-align: left;
+}
+
+.dribbelen-flex {
+    display: flex;
+    flex-wrap: wrap;
+    order: 3;
+}
+
+/* footer */
+
+.facebook-button a:link, .twitter-button a:link, .insta-button a:link {
+display: block;
+color: white;
+padding: 20px 0;
+}
+
+.insta-button {
+background-color: purple;
+}
+
+.facebook-button {
+background-color: blue;
+}
+
+.twitter-button {
+background-color: aqua;
+}
+
+/* horizontale lijn */
 hr { 
     display: block;
     background-color: orange;
     margin: 15px;
 } 
 
-/* afbeeldingen */
+/* font */
+@font-face {
+    font-family: "Lato-Light";
+    src: url("font/Lato-Light.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
