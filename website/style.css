@@ -1,3 +1,4 @@
+/* titel */
 header {
     color: orange;
     text-align: center;
@@ -33,30 +34,16 @@ li a:hover {
 }
 
 
-/* font */
-@font-face {
-    font-family: "Lato-Light";
-    src: url("font/Lato-Light.ttf");
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     width: 900px;
     margin: auto;
     font-family: "Lato-Light";
     background-color: black;
-}
-
-.pagina {
     font-size: 20px;
     color: white;
 }
 
+/* inleiding */
 .begin {
     width: 900px;
     margin-top: 50px;
@@ -103,9 +90,8 @@ body {
 }
 
 /* footer */
-
 .sitename {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     order: 4;
     margin: auto;
@@ -120,8 +106,13 @@ body {
 .facebook-button a:link, .twitter-button a:link, .insta-button a:link {
     display: block;
     color: white;
-    padding: 30px;
+    padding: 17px;
     text-decoration: none;
+}
+
+.facebook-button:active, .twitter-button:active, .insta-button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
 }
 
 .insta-button {
@@ -134,7 +125,6 @@ body {
     background-color: rgb(28, 81, 206 ); 
     margin: 30px;
     border-radius: 50%;
-    
 }
 
 .twitter-button {
