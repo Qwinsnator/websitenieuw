@@ -33,7 +33,6 @@ li a:hover {
   background-color: orange;
 }
 
-
 body {
     width: 900px;
     margin: auto;
@@ -44,15 +43,19 @@ body {
 }
 
 /* inleiding */
+.groep-titel {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .begin {
     width: 900px;
-    margin-top: 50px;
     text-align: center;
     order: 1;
 }
 
 /* schieten-alinea */
-.schieten-titel {
+.sub-titel {
     font-weight: bold;
     text-align: left;
     margin-top: 19px;
@@ -64,29 +67,32 @@ body {
     text-align: left;
 }
 
-.schieten-flex {
+.right-flex {
    display: flex;
    flex-wrap: wrap;
    order: 2;
 }
 
-
-/* dribelen-alinea */
-.dribbelen-titel {
-   text-align: left;
-    font-weight: bold;
+.shooting-form {
+    
 }
+/* dribelen-alinea */
 
 .dribbelen {
     margin-top: 5px;
     width: 500px;
-    text-align: left;
 }
 
-.dribbelen-flex {
+.left-flex {
     display: flex;
     flex-wrap: wrap;
     order: 3;
+}
+
+.dribbelen-plaatje {
+    float: left;
+    clear:right;
+    margin-right:20px;
 }
 
 /* footer */
@@ -96,6 +102,7 @@ body {
     order: 4;
     margin: auto;
 }
+
 .footer {
     display: flex;
     order: 5;
@@ -132,6 +139,16 @@ body {
     margin: 30px;
     border-radius: 50%;
 }
+
+/* HISTORIE */
+
+
+
+
+
+
+
+
 
 /* horizontale lijn */
 hr { 
