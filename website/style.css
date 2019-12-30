@@ -51,61 +51,47 @@ body {
 .begin {
     width: 900px;
     text-align: center;
-    order: 1;
 }
 
-/* schieten-alinea */
+/* alinea */
 .sub-titel {
     font-weight: bold;
     text-align: left;
     margin-top: 19px;
+    font-size: 25px;
 }
 
-.schieten {
-    width: 500px;
+.alinea {
+    width: 600px;
     margin-top: 5px;
     text-align: left;
 }
 
-.right-flex {
-   display: flex;
-   flex-wrap: wrap;
-   order: 2;
-}
-
-.shooting-form {
-    
-}
-/* dribelen-alinea */
-
-.dribbelen {
-    margin-top: 5px;
-    width: 500px;
-}
-
-.left-flex {
+.flex {
     display: flex;
     flex-wrap: wrap;
-    order: 3;
 }
 
-.dribbelen-plaatje {
-    float: left;
-    clear:right;
-    margin-right:20px;
+.plaatjes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.bijlage {
+    text-align: center;
+    text-indent: 0;
 }
 
 /* footer */
 .sitename {
     font-size: 20px;
     text-align: center;
-    order: 4;
     margin: auto;
 }
 
 .footer {
     display: flex;
-    order: 5;
     justify-content: center;
     font-size: 40px;
 }
@@ -139,10 +125,6 @@ body {
     margin: 30px;
     border-radius: 50%;
 }
-
-/* HISTORIE */
-
-
 
 
 
