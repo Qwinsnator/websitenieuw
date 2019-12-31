@@ -42,7 +42,7 @@ body {
     color: white;
 }
 
-/* inleiding */
+
 .groep-titel {
     text-align: center;
     margin-top: 30px;
@@ -53,17 +53,16 @@ body {
     text-align: center;
 }
 
-/* alinea */
 .sub-titel {
     font-weight: bold;
-    text-align: left;
     margin-top: 19px;
     font-size: 25px;
+    color: orange;
 }
 
-.alinea {
+article {
     width: 600px;
-    margin-top: 5px;
+    margin: 5px;
     text-align: left;
 }
 
@@ -78,17 +77,17 @@ body {
     flex-wrap: wrap;
 }
 
-.plaatjes {
-    display: flex;
-    flex-wrap: wrap;
+figure {
     margin-top: 15px;
 }
 
-/* historie */
-.historie-plaatjes {
+div ul {
     margin: 20px;
-    float: center;
-    display: flex;
+    list-style-position: outside 
+}
+
+div li {
+    margin: 10px;
 }
 
 /* footer */
@@ -98,7 +97,7 @@ body {
     margin: 10px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     font-size: 40px;
