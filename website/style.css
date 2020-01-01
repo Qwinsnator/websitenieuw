@@ -3,10 +3,10 @@ header {
     color: orange;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-/* navigatiebalk */
+/* navigatie */
 nav ul {
     list-style-type: none;
     padding: 10;
@@ -100,7 +100,7 @@ div li {
 footer {
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .facebook-button a:link, .twitter-button a:link, .insta-button a:link {
