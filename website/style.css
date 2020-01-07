@@ -13,7 +13,7 @@ nav ul {
     padding: 10;
     background-color:black;
     overflow: hidden;
-    border: solid 3px rgb(255,165,0)
+    border: solid 3px rgb(255,165,0) 
 }
 
 nav ul li {
@@ -34,15 +34,28 @@ li a:hover {
   background-color: orange;
 }
 
+@keyframes bgcolor {
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: grey;
+    }
+}
+
 body {
     width: 900px;
     margin: auto;
     font-family: "Lato-Light";
-    background-color: black;
+    -webkit-animation: bgcolor 30s infinite;
+    animation: bgcolor 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
     font-size: 20px;
     color: white;
+    cursor: url(http://cur.cursors-4u.net/sports/spo-1/spo52.cur), auto;
 }
-
 
 .groep-titel {
     text-align: center;
