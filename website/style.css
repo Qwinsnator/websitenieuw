@@ -4,6 +4,7 @@ header {
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 /* navigatie */
@@ -72,9 +73,19 @@ article {
     text-align: left;
 }
 
+.feitjes {
+    width: 250px;
+    text-align: center
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.flex2 {
+    margin-left: 50px;
+    margin-top: 25px;
 }
 
 figure {
